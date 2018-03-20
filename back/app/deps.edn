@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0-alpha4"}
+        cheshire {:mvn/version "5.6.3"}
+        lib {:local/root "../lib"}
+        route-map {:git/url "https://github.com/niquola/route-map"
+                   :sha "310ab478d248bdbef50c41fc99a218078e5a5825"}}}
