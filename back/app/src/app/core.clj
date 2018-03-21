@@ -8,3 +8,5 @@
   (println "main" args)
   (run))
 
+(run)
+

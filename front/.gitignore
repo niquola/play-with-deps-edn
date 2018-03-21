@@ -1,3 +1,5 @@
+.cpcache
 node_modules
 out
-.cpcache
+target
+figwheel_server.log

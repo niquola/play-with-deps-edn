@@ -3,4 +3,8 @@
         cheshire {:mvn/version "5.6.3"}
         lib {:local/root "../lib"}
         route-map {:git/url "https://github.com/niquola/route-map"
-                   :sha "310ab478d248bdbef50c41fc99a218078e5a5825"}}}
+                   :sha "310ab478d248bdbef50c41fc99a218078e5a5825"}}
+ :aliases {:repl {:extra-deps
+                  {cider/cider-nrepl       {:mvn/version "0.15.1"}
+                   org.clojure/tools.nrepl {:mvn/version "0.2.12"}
+                   refactor-nrepl          {:mvn/version "2.3.1"}}}}} 
